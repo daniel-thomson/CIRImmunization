@@ -15,7 +15,7 @@ Usage: #definition
 This is the computable resource that describes the RESTful endpoint
 """
 
-* date = "2020-0405-27"
+* date = "2020-05-27"
 * status = #draft
 * kind = #instance
 * fhirVersion = #4.0.1
