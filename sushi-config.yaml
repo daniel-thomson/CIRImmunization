@@ -1,0 +1,13 @@
+id: CIRImms.id
+canonical: http://example.org
+name: CIRImmunization
+title: CIR Immunisation API
+description: Profile on the Immunization resource for exposing Covid Immunisation events from the CIR through CTIP
+status: draft
+version: 0.1.0
+fhirVersion: 4.0.1
+copyrightYear: 2021+
+license: CC0-1.0
+releaseLabel: ci-build
+publisher: 
+  name: Ministry of Health
