@@ -14,5 +14,7 @@ publisher:
 
 menu:
   IG Home: index.html
+  Table of Contents: toc.html
+  Artifacts: artifacts.html
   Links:
     FHIR Spec: new-tab http://hl7.org/fhir/R4/index.html
