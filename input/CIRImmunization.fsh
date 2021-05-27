@@ -2,7 +2,6 @@ Profile: CIRImmunization
 Parent:	Immunization
 Id:	CIRImmunization
 
-
 * location 1..1
 * manufacturer 1..1
 * lotNumber 1..1
