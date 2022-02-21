@@ -8,7 +8,7 @@ Id:	CIRImmunization
 * site 1..1
 * route 1..1 */
 // Below elements are not used
-* statusReason 0..0
+* statusReason 0..1
 * encounter 0..0
 * recorded 0..0
 * primarySource 0..0
