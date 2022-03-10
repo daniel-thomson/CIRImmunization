@@ -4,9 +4,9 @@ Id:	CIRImmunization
 
 /* * location 1..1
 * manufacturer 1..1
-* lotNumber 1..3
 * site 1..1
 * route 1..1 */
+* lotNumber 1..3
 // Below elements are not used
 * statusReason 0..1
 * encounter 0..0
