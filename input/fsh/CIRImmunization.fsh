@@ -7,7 +7,8 @@ Id:	CIRImmunization
 * site 1..1
 * route 1..1 */
 * lotNumber 1..3
-// Below elements are not used
+
+// Below elements are not used 
 * statusReason 0..1
 * encounter 0..0
 * recorded 0..0
