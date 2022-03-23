@@ -10,7 +10,7 @@ Id:	CIRImmunization
 
 // Below elements are not used 
 * statusReason 0..1
-* encounter 0..0
+* encounter 0..1
 * recorded 0..0
 * primarySource 0..0
 * reportOrigin 0..0
