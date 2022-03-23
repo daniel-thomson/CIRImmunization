@@ -1,6 +1,10 @@
-Implementation guide for CIR Immunization event API.
+test IG 
 
-Note this iteration of the API will not available for non-ministry use. 
+
+### test plantuml
+
+ {% include test-sequence.svg %}
+
 
 ### API
 
@@ -12,6 +16,3 @@ Should probably also support filtering on the specific vaccine.
 
 Here is a change. Another change. 
 
-### test plantuml
-
- {% include test-sequence.svg %}
