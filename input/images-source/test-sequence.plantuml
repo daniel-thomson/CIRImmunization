@@ -1,28 +1,30 @@
 @startuml
 skinparam sequenceArrowThickness 2
-skinparam roundcorner 20
-skinparam maxmessagesize 60
-skinparam sequenceParticipant underline
+skinparam roundcorner 5
+skinparam maxmessagesize 180
+skinparam sequenceParticipant bold
 
-actor User
-participant "First Class" as A
-participant "Second Class" as B
-participant "Last Class" as C
+title Lookup EDI for an enrolled patient's GP
 
-User -> A: DoWork
+actor "Integrating application user" as User #CornflowerBlue
+participant "Integrating application" as A #CornflowerBlue
+participant "Enrolment SOAP service (NES)" as B #CornflowerBlue
+participant "HPI FHIR API" as C #CornflowerBlue
+|||
+User -> A: Lookup EDI for patient's GP
 activate A
-
-A -> B: Create Request
+A -> B: Get Enrolment
 activate B
-
-B -> C: DoWork
-activate C
-C --> B: WorkDone
-destroy C
-
-B --> A: Request Created
+B -> A: Return enrolling org FacID
 deactivate B
-
-A --> User: Done
+|||
+A -> C: GET [host]/location/[FacID]
+activate C
+C -> A: Return Facility resource
+deactivate C
+|||
+A -> A: Extract EDI from Location.telecom
+A -> User: EDI Address found
 deactivate A
+|||
 @enduml
