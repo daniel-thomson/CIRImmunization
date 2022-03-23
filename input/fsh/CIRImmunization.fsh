@@ -6,7 +6,7 @@ Id:	CIRImmunization
 * manufacturer 1..1
 * site 1..1
 * route 1..1 */
-* lotNumber 1..3
+* lotNumber 1..1
 
 // Below elements are not used 
 * statusReason 0..1
