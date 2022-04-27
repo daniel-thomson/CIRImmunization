@@ -8,6 +8,10 @@ Id:	CIRImmunization
 * route 1..1 */
 * lotNumber 1..1
 
+// test removing inherited elements
+* contained 0..0
+* modifierExtension 0..0
+
 // Below elements are not used 
 * statusReason 0..1
 * encounter 0..1
