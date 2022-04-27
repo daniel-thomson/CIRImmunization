@@ -12,6 +12,9 @@ Id:	CIRImmunization
 * contained 0..0
 * modifierExtension 0..0
 
+* performer.extension 0..0
+* performer.modifierExtension 0..0
+
 // Below elements are not used 
 * statusReason 0..1
 * encounter 0..1
