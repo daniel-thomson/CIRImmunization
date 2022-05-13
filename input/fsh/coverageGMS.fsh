@@ -16,13 +16,12 @@ InstanceOf: Coverage
 * relationship.coding.system = "http://hl7.org/fhir/ValueSet/subscriber-relationship"
 * relationship.coding.code = #self
 
-// There's probably a few options of how to represent the GMS categories
-// what's best depends on who needs it and what specific info they want to represent (e.g. dollar value vs a category in a PMS)
+// There's probably a few options of how to represent the GMS categories. The below sort of works, but the requirement to
+// always have class.value (that's a string) is a bit odd for this use case. 
+
 * class.type.coding.system = "https://nzhts.digital.health.nz/fhir/ValueSet/GMS-category-codes"
-* class.type.coding.code = #under6
+* class.type.coding.code = #Under6
 * class.type.coding.display = "A child under 6 years of age"
 * class.value = "Baby"
-
-//* period.end = "2023-09-17"
 
 * payor = Reference(https://hpi.api.health.govt.nz/organization/G00001-G)
