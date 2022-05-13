@@ -1,6 +1,6 @@
 // High User Health Card as Coverage resource example
 
-Instance:   HUHC
+Instance:   CoverageHUHC
 InstanceOf: Coverage
  
 * text.div = "<div xmlns='http://www.w3.org/1999/xhtml'>High User Health Card for Raewyn Joseph<br />NHI ZZZ0032<br />HUHC number 12345689<br /></div>"
@@ -24,4 +24,4 @@ InstanceOf: Coverage
 
 * period.end = "2023-09-17"
 
-* payor = Reference(https://hpi.api.health.govt.nz/organization/G00001G)
+* payor = Reference(https://hpi.api.health.govt.nz/organization/G00001-G)
