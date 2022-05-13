@@ -16,13 +16,13 @@ InstanceOf: Coverage
 * type.coding.code = #HUHC
 * type.coding.display = "High user health card"
 
-// * subscriber = Reference(Patient/ZZZ0032)
 * subscriber.identifier.system = "https://standards.digital.health.nz/ns/nhi-id"
 * subscriber.identifier.value = "ZZZ0032"
 * beneficiary = Reference(Patient/ZZZ0032)
-* relationship.coding.system = "http://hl7.org/fhir/ValueSet/subscriber-relationship"
-* relationship.coding.code = #self
-* relationship.coding.display = "self"
+relationship.coding = http://hl7.org/fhir/ValueSet/subscriber-relationship#self "Self"
+//* relationship.coding.system = "http://hl7.org/fhir/ValueSet/subscriber-relationship"
+//* relationship.coding.code = #self
+//* relationship.coding.display = "self"
 
 * period.end = "2023-03-17"
 
