@@ -16,8 +16,8 @@ InstanceOf: Coverage
 * type.coding.code = #HUHC
 * type.coding.display = "High user health card"
 
-* subscriber.reference.identifier.system = "https://standards.digital.health.nz/ns/nhi-id"
-* subscriber.reference.identifier.value = "ZZZ0032"
+* subscriber.identifier.system = "https://standards.digital.health.nz/ns/nhi-id"
+* subscriber.identifier.value = "ZZZ0032"
 * beneficiary = Reference(Patient/ZZZ0032)
 * relationship.coding = http://hl7.org/fhir/ValueSet/subscriber-relationship#self "Self"
 //* relationship.coding.system = "http://hl7.org/fhir/ValueSet/subscriber-relationship"
