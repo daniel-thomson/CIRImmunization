@@ -16,12 +16,12 @@ InstanceOf: Coverage
 * relationship.coding.system = "http://hl7.org/fhir/ValueSet/subscriber-relationship"
 * relationship.coding.code = #self
 
-// looks like there's a couple of options here. We could have a valueset that contains each category of GMS subsidy as a code 
-// or we could do like below, and have a code for the high level, and the details in the class.type.value & class.type.name 
-* class.type.coding.system = "https://nzhts.digital.health.nz/fhir/ValueSet/nz-coverage-class-codes"
-* class.type.coding.code = #GMS-Category
-* class.type.coding.display = "Category of GMS subsidy"
-* class.value = "Under 6"
+// There's probably a few options of how to represent the GMS categories
+// what's best depends on who needs it and what specific info they want to represent (e.g. dollar value vs a category in a PMS)
+* class.type.coding.system = "https://nzhts.digital.health.nz/fhir/ValueSet/GMS-category-codes"
+* class.type.coding.code = #under6
+* class.type.coding.display = "A child under 6 years of age"
+* class.value = "Baby"
 
 //* period.end = "2023-09-17"
 
