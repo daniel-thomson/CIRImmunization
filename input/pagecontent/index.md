@@ -1,5 +1,6 @@
-test IG 
+# A test IG 
 
+A monstrous frankenstein IG, loosely held together through the concept of "testing some stuff"
 
 ### test plantuml
 
