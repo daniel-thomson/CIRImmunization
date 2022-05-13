@@ -1,8 +1,8 @@
 id: CIRImms
 canonical: http://example.org
-name: CIRImmunization
-title: CIR Immunisation API
-description: Profile on the Immunization resource for exposing Covid Immunisation events from the CIR through CTIP
+name: sandbox
+title: testing...
+description: A monstrous frankenstein IG, loosely held together through the concept of "testing some stuff"
 status: draft
 version: 0.1.0
 fhirVersion: 4.0.1
@@ -10,10 +10,12 @@ copyrightYear: 2021+
 license: CC0-1.0
 releaseLabel: ci-build
 publisher: 
-  name: Ministry of Health
+  name: Daniel
 
 menu:
   IG Home: index.html
+  A Menu: 
+    A submenu-link: new-tab https://github.com
   Table of Contents: toc.html
   Artifacts: artifacts.html
   Links:
