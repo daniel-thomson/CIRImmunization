@@ -21,8 +21,7 @@ InstanceOf: Coverage
 
 * relationship.coding.system = "http://hl7.org/fhir/ValueSet/subscriber-relationship"
 * relationship.coding.code = #self
-* relationship.coding.display = "self"
 
-* period.end = "2023-03-17"
+* period.end = "2023-09-17"
 
 * payor = Reference(https://hpi.api.health.govt.nz/organization/G00001G)
