@@ -1,6 +1,6 @@
 // High User Health Card as Coverage resource example
 
-Instance:   Coverage Community Services Card Example
+Instance:   Coverage-Community-Services-Card-example
 InstanceOf: Coverage
  
 * text.div = "<div xmlns='http://www.w3.org/1999/xhtml'>Community Services Card for Raewyn Joseph<br />NHI ZZZ0032<br />CSC number 12345689<br /></div>"
