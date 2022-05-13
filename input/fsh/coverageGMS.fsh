@@ -1,4 +1,4 @@
-Instance:   GMSentitlement
+Instance:   CoverageGMS
 InstanceOf: Coverage
  
 * text.div = "<div xmlns='http://www.w3.org/1999/xhtml'>GMS Entitlement for Raewyn Joseph<br />NHI ZZZ0032<br /></div>"
@@ -25,4 +25,4 @@ InstanceOf: Coverage
 
 //* period.end = "2023-09-17"
 
-* payor = Reference(https://hpi.api.health.govt.nz/organization/G00001G)
+* payor = Reference(https://hpi.api.health.govt.nz/organization/G00001-G)
