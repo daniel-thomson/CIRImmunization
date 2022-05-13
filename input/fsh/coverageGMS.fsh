@@ -21,7 +21,7 @@ InstanceOf: Coverage
 * class.type.coding.system = "https://nzhts.digital.health.nz/fhir/ValueSet/nz-coverage-class-codes"
 * class.type.coding.code = #GMS-Category
 * class.type.coding.display = "Category of GMS subsidy"
-* class.type.value = "Under 6"
+* class.value = "Under 6"
 
 //* period.end = "2023-09-17"
 
