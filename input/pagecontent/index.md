@@ -15,6 +15,4 @@ The intention is to expose an API that will return the Covid immunization events
     
 Should probably also support filtering on the specific vaccine. 
 
-Here is a change. Another change. 
-
- [%dragons-start] Definitely some dragons here [%dragons-end%]
+Another change. 
