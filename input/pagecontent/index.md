@@ -4,8 +4,9 @@ A monstrous frankenstein IG, loosely held together through the concept of "testi
 
 ### test plantuml
 
+<div>
  {% include test-sequence.svg %}
-
+</div>
 
 ### API
 
