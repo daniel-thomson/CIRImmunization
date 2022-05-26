@@ -16,7 +16,6 @@ InstanceOf: Coverage
 * type.coding.code = #CSC
 * type.coding.display = "Community Services Card"
 
-* subscriber = Reference(https://nhi.api.health.govt.nz/patient/ZZZ0032)
 * beneficiary = Reference(https://nhi.api.health.govt.nz/patient/ZZZ0032)
 
 * relationship.coding.system = "http://hl7.org/fhir/ValueSet/subscriber-relationship"
