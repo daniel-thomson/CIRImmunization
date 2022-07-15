@@ -9,11 +9,8 @@ Description:    "Coverage resource for use in NZ"
 * ^status = #draft
 
 * ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
-* ^extension[=].valueInteger = 2
+* ^extension[=].valueInteger = '2'
 
 
-* ^purpose = "Trial use profile on Coverage for NZ use. Primarily changing the type valueset. Inclusion of the profile in future IG versions will depend on Implementer feedback.  "
-* ^text.status = #additional
-* ^text.div = "<div xmlns='http://www.w3.org/1999/xhtml'>NZ Coverage profile</div>"
 
 
