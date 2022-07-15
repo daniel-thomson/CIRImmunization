@@ -16,6 +16,4 @@ Description:    "Coverage resource for use in NZ"
 * ^text.status = #additional
 * ^text.div = "<div xmlns='http://www.w3.org/1999/xhtml'>NZ Coverage profile</div>"
 
-* type TU
-* type from $coverage-type-vs (preferred)
-* class.type from $coverage-category-vs (extensible)
+
