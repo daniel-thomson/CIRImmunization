@@ -9,7 +9,7 @@ Description:    "Coverage resource for use in NZ"
 * ^status = #draft
 
 * ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
-* ^extension[=].valueInteger = '2'
+* ^extension[=].valueInteger = 5
 
 
 
